@@ -1,0 +1,147 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-family: 'Arvo', serif;
+    box-sizing: border-box;
+}
+
+:root {
+    /* variables */
+    --green: #03440b;
+    --white: #fff;
+    --gold: #856F30;
+}
+
+/* hero content for all pages */
+
+.herohome {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../orhssoccer/photos/soccer-ball-white-line-stadium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* nav content begins */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: var(--white);
+    font-weight: bold;
+}
+
+/* conflicts with background 
+.active {
+    color: var(--green);
+}
+*/
+/* hero text here */
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-content: center;
+    transform: translateY(-50%);
+
+}
+.content h2 {
+    color: var(--white);
+    margin: 20px 0px 10px;
+    font-size: 55px;
+}
+
+.hero-link {
+    color: #856F30;
+    
+}
+
+/* titles */
+
+.section-title-w {
+    text-align: center;
+    color: var(--white);
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.section-title-g {
+    text-align: center;
+    color: var(--gold);
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+/* our mission section */
+.mission {
+    background-image: url(../orhssoccer/designs/background/soccerinrightcorner.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.main-green {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mission-text {
+    width: 550px;
+}
+
+.teamphoto {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/* start now section */
+
+.startnow {
+    background-color: var(--white);
+}
+.main-white {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quote {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+/* footer section */
+footer {
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
